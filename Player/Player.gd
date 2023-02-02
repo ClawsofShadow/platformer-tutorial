@@ -4,7 +4,7 @@ class_name Player
 enum { MOVE, CLIMB }
 
 
-export (Resource) var moveData = preload("res://PlayerMovement/FastPlayerMovement.tres") as PlayerMovement
+export (Resource) var moveData = preload("res://Player/Movement/FastPlayerMovement.tres") as PlayerMovement
 
 onready var animatedSprite: = $AnimatedSprite
 onready var ladderCheck: = $LadderCheck
@@ -134,7 +134,6 @@ func is_on_ladder():
 	return true
 	
 func apply_gravity():
-	print("move data", moveData)
 	velocity.y += moveData.GRAVITY
 	velocity.y = min(velocity.y, 300)
 

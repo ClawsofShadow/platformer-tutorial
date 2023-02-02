@@ -1,6 +1,6 @@
 extends Node2D
 
-const PlayerScene = preload("res://Player.tscn")
+const PlayerScene = preload("res://Player/Player.tscn")
 
 onready var camera := $Camera2D
 onready var player := $Player

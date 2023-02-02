@@ -12,17 +12,17 @@ _global_script_classes=[ {
 "base": "Area2D",
 "class": "Ladder",
 "language": "GDScript",
-"path": "res://Stuff for Game/Ladder.gd"
+"path": "res://Ladder/Ladder.gd"
 }, {
 "base": "KinematicBody2D",
 "class": "Player",
 "language": "GDScript",
-"path": "res://Player.gd"
+"path": "res://Player/Player.gd"
 }, {
 "base": "Resource",
 "class": "PlayerMovement",
 "language": "GDScript",
-"path": "res://PlayerMovement/PlayerMovement.gd"
+"path": "res://Player/Movement/PlayerMovement.gd"
 } ]
 _global_script_class_icons={
 "Ladder": "",
@@ -33,17 +33,17 @@ _global_script_class_icons={
 [application]
 
 config/name="platform tutorial"
-run/main_scene="res://Events/World.tscn"
+run/main_scene="res://World.tscn"
 config/icon="res://icon.png"
 
 [audio]
 
-default_bus_layout="res://PlayerMovement/default_bus_layout.tres"
+default_bus_layout="res://Player/Movement/default_bus_layout.tres"
 
 [autoload]
 
 SoundPlayer="*res://sounds/SoundPlayer.tscn"
-Events="*res://Events/Events.gd"
+Events="*res://Common/Events.gd"
 
 [debug]
 
@@ -77,4 +77,4 @@ quality/driver/driver_name="GLES2"
 2d/snapping/use_gpu_pixel_snap=true
 vram_compression/import_etc=true
 vram_compression/import_etc2=false
-environment/default_environment="res://PlayerMovement/default_env.tres"
+environment/default_environment="res://Player/Movement/default_env.tres"
