@@ -1,0 +1,80 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "Area2D",
+"class": "Ladder",
+"language": "GDScript",
+"path": "res://Stuff for Game/Ladder.gd"
+}, {
+"base": "KinematicBody2D",
+"class": "Player",
+"language": "GDScript",
+"path": "res://Player.gd"
+}, {
+"base": "Resource",
+"class": "PlayerMovement",
+"language": "GDScript",
+"path": "res://PlayerMovement/PlayerMovement.gd"
+} ]
+_global_script_class_icons={
+"Ladder": "",
+"Player": "",
+"PlayerMovement": ""
+}
+
+[application]
+
+config/name="platform tutorial"
+run/main_scene="res://Events/World.tscn"
+config/icon="res://icon.png"
+
+[audio]
+
+default_bus_layout="res://PlayerMovement/default_bus_layout.tres"
+
+[autoload]
+
+SoundPlayer="*res://sounds/SoundPlayer.tscn"
+Events="*res://Events/Events.gd"
+
+[debug]
+
+gdscript/completion/autocomplete_setters_and_getters=true
+gdscript/warnings/unused_class_variable=true
+
+[display]
+
+window/size/width=320
+window/size/height=180
+window/size/test_width=1280
+window/size/test_height=720
+window/stretch/mode="2d"
+
+[gui]
+
+common/drop_mouse_on_gui_input_disabled=true
+
+[layer_names]
+
+2d_physics/layer_1="World"
+2d_physics/layer_2="Characters"
+
+[physics]
+
+common/enable_pause_aware_picking=true
+
+[rendering]
+
+quality/driver/driver_name="GLES2"
+2d/snapping/use_gpu_pixel_snap=true
+vram_compression/import_etc=true
+vram_compression/import_etc2=false
+environment/default_environment="res://PlayerMovement/default_env.tres"
