@@ -7,4 +7,4 @@ func _on_Checkpoint_body_entered(body: Node) -> void:
 		return
 		
 	animatedSprite.play("Checked")	
-	Events.emit_signal("hit_checkpoint", global_position)
+	Events.emit_signal("hit_checkpoint", position)
