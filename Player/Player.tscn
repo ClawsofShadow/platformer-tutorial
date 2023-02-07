@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://Player/Player.gd" type="Script" id=1]
-[ext_resource path="res://Player/Movement/FastPlayerMovement.tres" type="Resource" id=2]
+[ext_resource path="res://Player/Movement/DefaultPlayerMovement.tres" type="Resource" id=2]
 [ext_resource path="res://Player/Skins/PlayerGreenSkin.tres" type="SpriteFrames" id=3]
 
 [sub_resource type="RectangleShape2D" id=3]
