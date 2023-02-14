@@ -29,8 +29,8 @@ animations = [ {
 extents = Vector2( 7, 7 )
 
 [sub_resource type="Gradient" id=5]
-offsets = PoolRealArray( 0, 0.988095, 1 )
-colors = PoolColorArray( 0.347005, 0.179841, 0.0772629, 1, 0.079737, 0.0413143, 0.0125221, 0.0753968, 0.0579426, 0.0300182, 0.00724283, 0 )
+offsets = PoolRealArray( 0, 0.488095, 0.988095, 1 )
+colors = PoolColorArray( 0.9375, 0.803318, 0.446777, 1, 0.625, 0.478833, 0.151367, 0.543268, 0.079737, 0.0413143, 0.0125221, 0.0753968, 0.0579426, 0.0300182, 0.00724283, 0 )
 
 [sub_resource type="GradientTexture" id=6]
 gradient = SubResource( 5 )
