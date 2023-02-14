@@ -29,7 +29,8 @@ animations = [ {
 extents = Vector2( 7, 7 )
 
 [sub_resource type="Gradient" id=5]
-colors = PoolColorArray( 0.247059, 0.247059, 0.247059, 0.588235, 1, 1, 1, 0.392157 )
+offsets = PoolRealArray( 0, 0.988095, 1 )
+colors = PoolColorArray( 0.347005, 0.179841, 0.0772629, 1, 0.079737, 0.0413143, 0.0125221, 0.0753968, 0.0579426, 0.0300182, 0.00724283, 0 )
 
 [sub_resource type="GradientTexture" id=6]
 gradient = SubResource( 5 )
@@ -73,9 +74,6 @@ enabled = true
 cast_to = Vector2( 0, 16 )
 
 [node name="Particles2D" type="Particles2D" parent="."]
-position = Vector2( 2, -1 )
-amount = 64
-lifetime = 2.0
+amount = 48
 explosiveness = 1.0
-local_coords = false
 process_material = SubResource( 7 )

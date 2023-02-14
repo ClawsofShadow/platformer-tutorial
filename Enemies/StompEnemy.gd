@@ -19,6 +19,7 @@ export(float) var delay_time = 0.75
 
 func _ready() -> void:
 	particles.one_shot = true
+	particles.emitting = false
 
 func _physics_process(delta: float) -> void:
 	match state:
@@ -30,7 +31,6 @@ func _physics_process(delta: float) -> void:
 func hover_state() -> void:
 	state = FALL
 
-
 func fall_state(delta) -> void:
 	animatedSprite.play("Falling")
 	velocity.y = move_toward(velocity.y, fall_speed, fall_acceleration * delta)
@@ -41,14 +41,15 @@ func fall_state(delta) -> void:
 		velocity = Vector2.ZERO
 		position.y = collision_point.y
 		state = LAND
-		timer.start(delay_time)
 		particles.emitting = true
+		timer.start(delay_time)
 
 func land_state() -> void:
-	if timer.time_left == 0:
+	if timer.time_left <= 0:
 		state = RISE
 
 func rise_state(delta) -> void:
+	particles.emitting = false
 	animatedSprite.play("Rising")
 	velocity.y = move_toward(velocity.y, rise_speed * 10, rise_acceleration * delta)
 	position.y -= velocity.y * delta
