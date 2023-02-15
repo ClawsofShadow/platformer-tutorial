@@ -44,6 +44,7 @@ default_bus_layout="res://Player/Movement/default_bus_layout.tres"
 
 SoundPlayer="*res://sounds/SoundPlayer.tscn"
 Events="*res://Common/Events.gd"
+Transitions="*res://Common/Transitions.tscn"
 
 [debug]
 

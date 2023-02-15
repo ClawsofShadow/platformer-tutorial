@@ -80,3 +80,4 @@ position = Vector2( 315, 72 )
 
 [node name="Door" parent="." index="19" instance=ExtResource( 9 )]
 position = Vector2( 543, 153 )
+target_level_path = ""
