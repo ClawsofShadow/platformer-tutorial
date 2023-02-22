@@ -9,3 +9,7 @@ func play_exit_transition():
 
 func play_enter_transition():
 	animationPlayer.play("EnterLevel")
+
+
+func _on_AnimationPlayer_animation_finished(anim_name:String):
+	emit_signal("transition_completed")
