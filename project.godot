@@ -10,6 +10,11 @@ config_version=4
 
 _global_script_classes=[ {
 "base": "Area2D",
+"class": "HitboxSword",
+"language": "GDScript",
+"path": "res://Enemies/HitboxSword.gd"
+}, {
+"base": "Area2D",
 "class": "Ladder",
 "language": "GDScript",
 "path": "res://Ladder/Ladder.gd"
@@ -25,6 +30,7 @@ _global_script_classes=[ {
 "path": "res://Player/Movement/PlayerMovement.gd"
 } ]
 _global_script_class_icons={
+"HitboxSword": "",
 "Ladder": "",
 "Player": "",
 "PlayerMovement": ""
@@ -33,7 +39,7 @@ _global_script_class_icons={
 [application]
 
 config/name="platform tutorial"
-run/main_scene="res://Levels/Level1.tscn"
+run/main_scene="res://Levels/PracticeLevel.tscn"
 config/icon="res://icon.png"
 
 [audio]
