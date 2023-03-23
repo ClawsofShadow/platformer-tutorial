@@ -6,4 +6,5 @@ export var damage := 10
 
 
 func _init() -> void:
-	pass
+	collision_layer = 3
+	collision_mask = 0

@@ -1,8 +1,9 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://Levels/Level.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Common/TileMap.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Enemies/WalkingEnemy.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Enemies/MiniBoss1.tscn" type="PackedScene" id=4]
 [ext_resource path="res://Common/Checkpoint.tscn" type="PackedScene" id=7]
 [ext_resource path="res://Enemies/StompEnemy.tscn" type="PackedScene" id=8]
 [ext_resource path="res://Common/Door.tscn" type="PackedScene" id=9]
@@ -18,38 +19,38 @@ tile_data = PoolIntArray( -511630203, 1, 65537, -511630202, 1, 65538, -511630201
 [node name="WalkingEnemy" parent="." index="4" instance=ExtResource( 3 )]
 position = Vector2( 9, 72 )
 
-[node name="WalkingEnemy2" parent="." index="5" instance=ExtResource( 3 )]
-position = Vector2( 963, -18 )
-
-[node name="Checkpoint" parent="." index="6" instance=ExtResource( 7 )]
+[node name="Checkpoint" parent="." index="5" instance=ExtResource( 7 )]
 position = Vector2( 567, 72 )
 
-[node name="Checkpoint2" parent="." index="7" instance=ExtResource( 7 )]
+[node name="Checkpoint2" parent="." index="6" instance=ExtResource( 7 )]
 position = Vector2( 136, 198 )
 
-[node name="Checkpoint3" parent="." index="8" instance=ExtResource( 7 )]
+[node name="Checkpoint3" parent="." index="7" instance=ExtResource( 7 )]
 position = Vector2( 1071, -18 )
 
-[node name="StompEnemy" parent="." index="9" instance=ExtResource( 8 )]
+[node name="StompEnemy" parent="." index="8" instance=ExtResource( 8 )]
 position = Vector2( 333, 162 )
 
-[node name="StompEnemy2" parent="." index="10" instance=ExtResource( 8 )]
+[node name="StompEnemy2" parent="." index="9" instance=ExtResource( 8 )]
 position = Vector2( 261, 90 )
 
-[node name="StompEnemy3" parent="." index="11" instance=ExtResource( 8 )]
+[node name="StompEnemy3" parent="." index="10" instance=ExtResource( 8 )]
 position = Vector2( 189, 162 )
 
-[node name="StompEnemy4" parent="." index="12" instance=ExtResource( 8 )]
+[node name="StompEnemy4" parent="." index="11" instance=ExtResource( 8 )]
 position = Vector2( 297, 54 )
 
-[node name="StompEnemy5" parent="." index="13" instance=ExtResource( 8 )]
+[node name="StompEnemy5" parent="." index="12" instance=ExtResource( 8 )]
 position = Vector2( 225, 54 )
 
-[node name="Door" parent="." index="14" instance=ExtResource( 9 )]
+[node name="Door" parent="." index="13" instance=ExtResource( 9 )]
 position = Vector2( 999, 36 )
 
-[node name="Checkpoint4" parent="." index="15" instance=ExtResource( 7 )]
+[node name="Checkpoint4" parent="." index="14" instance=ExtResource( 7 )]
 position = Vector2( 207, 216 )
 
-[node name="Checkpoint5" parent="." index="16" instance=ExtResource( 7 )]
+[node name="Checkpoint5" parent="." index="15" instance=ExtResource( 7 )]
 position = Vector2( 279, 216 )
+
+[node name="MiniBoss1" parent="." index="16" instance=ExtResource( 4 )]
+position = Vector2( 1142, 24 )
