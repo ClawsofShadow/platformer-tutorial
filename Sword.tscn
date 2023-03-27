@@ -10,7 +10,7 @@ height = 12.0
 [node name="Sword" type="Node2D"]
 
 [node name="Sprite" type="Sprite" parent="."]
-position = Vector2( -5.96046e-08, 0 )
+position = Vector2( -3.55271e-15, 0 )
 scale = Vector2( 0.692308, 0.692308 )
 texture = ExtResource( 1 )
 

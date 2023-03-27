@@ -53,4 +53,4 @@ position = Vector2( 207, 216 )
 position = Vector2( 279, 216 )
 
 [node name="MiniBoss1" parent="." index="16" instance=ExtResource( 4 )]
-position = Vector2( 1142, 24 )
+position = Vector2( 1213, 0 )
