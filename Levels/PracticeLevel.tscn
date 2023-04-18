@@ -9,7 +9,7 @@
 [ext_resource path="res://Common/TileMap.tscn" type="PackedScene" id=7]
 [ext_resource path="res://Ladder/Ladder.tscn" type="PackedScene" id=8]
 [ext_resource path="res://Enemies/Spike.tscn" type="PackedScene" id=9]
-[ext_resource path="res://Sword.tscn" type="PackedScene" id=10]
+[ext_resource path="res://Weapons/Weapons for players/Sword.tscn" type="PackedScene" id=10]
 [ext_resource path="res://Enemies/MiniBoss1.tscn" type="PackedScene" id=11]
 
 [sub_resource type="Curve2D" id=2]
@@ -20,7 +20,7 @@ _data = {
 [node name="Practice level" instance=ExtResource( 2 )]
 
 [node name="Player" parent="." index="0"]
-position = Vector2( 360, -85 )
+position = Vector2( 360, -80 )
 
 [node name="Camera2D" parent="." index="1"]
 position = Vector2( -1, 0 )

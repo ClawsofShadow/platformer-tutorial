@@ -9,7 +9,7 @@ onready var player := $Player
 onready var timer := $Timer
 
 func _ready() -> void:
-	VisualServer.set_default_clear_color(Color.blue)
+	VisualServer.set_default_clear_color(Color.teal)
 	player.connect_camera(camera)
 	player_spawn_location = player.global_position
 	Events.connect("player_died", self , "_on_player_died")
