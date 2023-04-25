@@ -17,8 +17,8 @@ func _ready() -> void:
 	Events.connect("hit_checkpoint", self ,"_on_hit_checkpoint")
 
 func _physics_process(_delta: float) -> void:
-	if player.position.y > kill_floor:
-		player.player_die(player)
+	if is_instance_valid(player) and player.position.y > kill_floor:
+		player.player_die()
 
 
 

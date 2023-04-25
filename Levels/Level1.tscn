@@ -76,10 +76,10 @@ position = Vector2( 748, 701 )
 position = Vector2( 730, 701 )
 
 [node name="Spike7" parent="." index="23" instance=ExtResource( 5 )]
-position = Vector2( 982, 665 )
+position = Vector2( 1071, 684 )
 
 [node name="Spike8" parent="." index="24" instance=ExtResource( 5 )]
-position = Vector2( 1000, 683 )
+position = Vector2( 999, 684 )
 
 [node name="Spike9" parent="." index="25" instance=ExtResource( 5 )]
 position = Vector2( 477, -216 )
