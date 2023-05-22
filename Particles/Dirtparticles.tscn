@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=2]
+
+[sub_resource type="ParticlesMaterial" id=1]
+emission_shape = 1
+emission_sphere_radius = 1.0
+flag_disable_z = true
+orbit_velocity = 0.0
+orbit_velocity_random = 0.0
+color = Color( 0.862745, 0.584314, 0.376471, 1 )
+anim_speed_random = 0.59
+
+[node name="Dirtparticles" type="Particles2D"]
+process_material = SubResource( 1 )

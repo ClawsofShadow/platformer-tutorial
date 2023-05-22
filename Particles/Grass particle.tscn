@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=2]
+
+[sub_resource type="Gradient" id=1]
+colors = PoolColorArray( 0.0238342, 0.277344, 0.0575035, 1, 0.273304, 0.898438, 0.0982666, 1 )
+
+[sub_resource type="GradientTexture" id=2]
+gradient = SubResource( 1 )
+
+[sub_resource type="ParticlesMaterial" id=3]
+flag_disable_z = true
+gravity = Vector3( 0, -1, 0 )
+orbit_velocity = 0.0
+orbit_velocity_random = 0.0
+color_ramp = SubResource( 2 )
+
+[node name="Grass particle" type="Particles2D"]
+lifetime = 3.0
+process_material = SubResource( 3 )

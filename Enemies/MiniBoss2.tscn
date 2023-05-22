@@ -23,16 +23,16 @@ animations = [ {
 } ]
 
 [sub_resource type="RectangleShape2D" id=5]
-extents = Vector2( 6, 5.5 )
+extents = Vector2( 16, 15.625 )
 
 [node name="MiniBoss2" type="Node2D"]
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
-position = Vector2( 2.84217e-14, -2.84217e-14 )
-scale = Vector2( 1.375, 1.375 )
+position = Vector2( 1.90735e-06, -1.90735e-06 )
+scale = Vector2( 3.8125, 3.8125 )
 frames = SubResource( 4 )
 animation = "flying"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( 0, 3.5 )
+position = Vector2( 0, 11.375 )
 shape = SubResource( 5 )
