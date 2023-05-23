@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=2]
+[gd_scene load_steps=17 format=2]
 
 [ext_resource path="res://Levels/Level.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Tilemaps/TileMap.tscn" type="PackedScene" id=2]
@@ -15,6 +15,7 @@
 [ext_resource path="res://Poison Blocks/Waterfallpoison1.tscn" type="PackedScene" id=13]
 [ext_resource path="res://Poison Blocks/Waterfallpoison3.tscn" type="PackedScene" id=14]
 [ext_resource path="res://Poison Blocks/Waterfallpoison2.tscn" type="PackedScene" id=15]
+[ext_resource path="res://Enemies/MiniBoss2.tscn" type="PackedScene" id=16]
 
 [node name="Level2" instance=ExtResource( 1 )]
 kill_floor = 590
@@ -570,95 +571,98 @@ rotation = 0.0112639
 position = Vector2( 531, -153 )
 rotation = 0.0112639
 
-[node name="TopPoison41" parent="." index="181" instance=ExtResource( 12 )]
+[node name="MiniBoss2" parent="." index="181" instance=ExtResource( 16 )]
+position = Vector2( 1314, -225 )
+
+[node name="TopPoison41" parent="." index="182" instance=ExtResource( 12 )]
 position = Vector2( 63, -189 )
 rotation = 0.0112639
 
-[node name="TopPoison42" parent="." index="182" instance=ExtResource( 12 )]
+[node name="TopPoison42" parent="." index="183" instance=ExtResource( 12 )]
 position = Vector2( 45, -189 )
 rotation = 0.0112639
 
-[node name="TopPoison43" parent="." index="183" instance=ExtResource( 12 )]
+[node name="TopPoison43" parent="." index="184" instance=ExtResource( 12 )]
 position = Vector2( 27, -189 )
 rotation = 0.0112639
 
-[node name="TopPoison44" parent="." index="184" instance=ExtResource( 12 )]
+[node name="TopPoison44" parent="." index="185" instance=ExtResource( 12 )]
 position = Vector2( 9, -189 )
 rotation = 0.0112639
 
-[node name="TopPoison45" parent="." index="185" instance=ExtResource( 12 )]
+[node name="TopPoison45" parent="." index="186" instance=ExtResource( 12 )]
 position = Vector2( -9, -189 )
 rotation = 0.0112639
 
-[node name="TopPoison46" parent="." index="186" instance=ExtResource( 12 )]
+[node name="TopPoison46" parent="." index="187" instance=ExtResource( 12 )]
 position = Vector2( -27, -189 )
 rotation = 0.0112639
 
-[node name="TopPoison47" parent="." index="187" instance=ExtResource( 12 )]
+[node name="TopPoison47" parent="." index="188" instance=ExtResource( 12 )]
 position = Vector2( -45, -189 )
 rotation = 0.0112639
 
-[node name="TopPoison48" parent="." index="188" instance=ExtResource( 12 )]
+[node name="TopPoison48" parent="." index="189" instance=ExtResource( 12 )]
 position = Vector2( -63, -189 )
 rotation = 0.0112639
 
-[node name="TopPoison50" parent="." index="189" instance=ExtResource( 12 )]
+[node name="TopPoison50" parent="." index="190" instance=ExtResource( 12 )]
 position = Vector2( -81, -189 )
 rotation = 0.0112639
 
-[node name="Waterfallpoison1" parent="." index="190" instance=ExtResource( 13 )]
+[node name="Waterfallpoison1" parent="." index="191" instance=ExtResource( 13 )]
 position = Vector2( -351, 180 )
 
-[node name="Waterfallpoison2" parent="." index="191" instance=ExtResource( 15 )]
+[node name="Waterfallpoison2" parent="." index="192" instance=ExtResource( 15 )]
 position = Vector2( -351, 306 )
 
-[node name="Waterfallpoison4" parent="." index="192" instance=ExtResource( 15 )]
+[node name="Waterfallpoison4" parent="." index="193" instance=ExtResource( 15 )]
 position = Vector2( -351, 378 )
 
-[node name="Waterfallpoison5" parent="." index="193" instance=ExtResource( 15 )]
+[node name="Waterfallpoison5" parent="." index="194" instance=ExtResource( 15 )]
 position = Vector2( -351, 198 )
 
-[node name="Waterfallpoison6" parent="." index="194" instance=ExtResource( 15 )]
+[node name="Waterfallpoison6" parent="." index="195" instance=ExtResource( 15 )]
 position = Vector2( -351, 216 )
 
-[node name="Waterfallpoison7" parent="." index="195" instance=ExtResource( 15 )]
+[node name="Waterfallpoison7" parent="." index="196" instance=ExtResource( 15 )]
 position = Vector2( -351, 234 )
 
-[node name="Waterfallpoison8" parent="." index="196" instance=ExtResource( 15 )]
+[node name="Waterfallpoison8" parent="." index="197" instance=ExtResource( 15 )]
 position = Vector2( -351, 252 )
 
-[node name="Waterfallpoison9" parent="." index="197" instance=ExtResource( 15 )]
+[node name="Waterfallpoison9" parent="." index="198" instance=ExtResource( 15 )]
 position = Vector2( -351, 270 )
 
-[node name="Waterfallpoison10" parent="." index="198" instance=ExtResource( 15 )]
+[node name="Waterfallpoison10" parent="." index="199" instance=ExtResource( 15 )]
 position = Vector2( -351, 288 )
 
-[node name="Waterfallpoison11" parent="." index="199" instance=ExtResource( 15 )]
+[node name="Waterfallpoison11" parent="." index="200" instance=ExtResource( 15 )]
 position = Vector2( -351, 324 )
 
-[node name="Waterfallpoison12" parent="." index="200" instance=ExtResource( 15 )]
+[node name="Waterfallpoison12" parent="." index="201" instance=ExtResource( 15 )]
 position = Vector2( -351, 342 )
 
-[node name="Waterfallpoison13" parent="." index="201" instance=ExtResource( 15 )]
+[node name="Waterfallpoison13" parent="." index="202" instance=ExtResource( 15 )]
 position = Vector2( -351, 360 )
 
-[node name="Waterfallpoison3" parent="." index="202" instance=ExtResource( 14 )]
+[node name="Waterfallpoison3" parent="." index="203" instance=ExtResource( 14 )]
 position = Vector2( -351, 396 )
 
-[node name="Ladder31" parent="." index="203" instance=ExtResource( 5 )]
+[node name="Ladder31" parent="." index="204" instance=ExtResource( 5 )]
 position = Vector2( 540, 198 )
 
-[node name="Ladder32" parent="." index="204" instance=ExtResource( 5 )]
+[node name="Ladder32" parent="." index="205" instance=ExtResource( 5 )]
 position = Vector2( 540, 180 )
 
-[node name="Ladder33" parent="." index="205" instance=ExtResource( 5 )]
+[node name="Ladder33" parent="." index="206" instance=ExtResource( 5 )]
 position = Vector2( 540, 162 )
 
-[node name="Ladder34" parent="." index="206" instance=ExtResource( 5 )]
+[node name="Ladder34" parent="." index="207" instance=ExtResource( 5 )]
 position = Vector2( 540, 144 )
 
-[node name="Ladder35" parent="." index="207" instance=ExtResource( 5 )]
+[node name="Ladder35" parent="." index="208" instance=ExtResource( 5 )]
 position = Vector2( 540, 126 )
 
-[node name="Ladder36" parent="." index="208" instance=ExtResource( 5 )]
+[node name="Ladder36" parent="." index="209" instance=ExtResource( 5 )]
 position = Vector2( 540, 108 )

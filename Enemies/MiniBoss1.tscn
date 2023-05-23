@@ -30,11 +30,10 @@ animations = [ {
 } ]
 
 [sub_resource type="RectangleShape2D" id=5]
-extents = Vector2( 28.5, 24.2188 )
+extents = Vector2( 28.5, 16.1094 )
 
-[sub_resource type="CapsuleShape2D" id=6]
-radius = 38.0
-height = 0.0
+[sub_resource type="RectangleShape2D" id=6]
+extents = Vector2( 33, 10 )
 
 [node name="MiniBoss1" type="KinematicBody2D"]
 collision_layer = 2
@@ -47,11 +46,17 @@ frames = SubResource( 4 )
 animation = "Walking"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( 0, 3 )
+shape = SubResource( 5 )
+
+[node name="Hitbox" parent="." instance=ExtResource( 3 )]
+position = Vector2( 0, 11.1094 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hitbox"]
+position = Vector2( 0, -1.1094 )
 shape = SubResource( 5 )
 
 [node name="LedgeCheckRight" type="RayCast2D" parent="."]
-position = Vector2( -28, 32 )
+position = Vector2( -28, 31 )
 enabled = true
 cast_to = Vector2( 0, 5 )
 
@@ -60,8 +65,10 @@ position = Vector2( 28, 31 )
 enabled = true
 cast_to = Vector2( 0, 5 )
 
-[node name="Hitbox" parent="." instance=ExtResource( 3 )]
+[node name="Area2D" type="Area2D" parent="."]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Hitbox"]
-position = Vector2( -1, 4 )
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2( 0, -17 )
 shape = SubResource( 6 )
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_Hitbox_body_entered"]

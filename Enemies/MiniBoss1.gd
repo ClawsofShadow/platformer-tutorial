@@ -1,5 +1,6 @@
 extends KinematicBody2D
 
+export (int) var health := 100
 var direction = Vector2.RIGHT
 var velocity = Vector2.ZERO
 
@@ -18,3 +19,13 @@ func _physics_process(_delta):
 	
 	velocity = direction * 25
 	velocity = move_and_slide(velocity, Vector2.UP)
+
+
+
+func _on_Hitbox_body_entered(body:Node):
+	if body is Player:
+		health -= 20
+		body.velocity.y += -150
+
+	if health <= 0:
+		queue_free()

@@ -39,7 +39,7 @@ position = Vector2( -1, 0 )
 
 [node name="TileMap" parent="." index="3" instance=ExtResource( 7 )]
 position = Vector2( 27, 135 )
-tile_data = PoolIntArray( -1703915, 15, 0, -1703914, 17, 0, -1638369, 15, 0, -1638368, 17, 0, -1572837, 15, 0, -1572836, 16, 0, -1572835, 17, 0, -1507311, 15, 0, -1507310, 17, 0, -1507294, 15, 0, -1507293, 17, 0, -1507283, 0, 0, -1507282, 0, 0, -1441768, 1, 1, -1441767, 1, 2, -1441766, 1, 3, -1441762, 1, 1, -1441761, 1, 2, -1441760, 1, 3, -1441752, 0, 0, -1441751, 0, 0, -1376205, 0, 0, -1376204, 0, 0, -1310700, 15, 0, -1310699, 17, 0, -1310692, 1, 0, -1310683, 15, 0, -1310682, 17, 0, -1245174, 0, 0, -1245170, 0, 0, -1179648, 11, 0, -1179643, 1, 1, -1179642, 1, 2, -1179641, 1, 2, -1179640, 1, 2, -1179639, 1, 2, -1179638, 1, 2, -1179637, 1, 2, -1179636, 1, 2, -1179635, 1, 2, -1179634, 1, 2, -1179633, 1, 2, -1179632, 1, 3, -1179624, 1, 1, -1179623, 1, 2, -1179622, 1, 3, -1179618, 1, 1, -1179617, 1, 2, -1179616, 1, 3, -1179614, 15, 0, -1179613, 17, 0, -1179606, 0, 0, -1179605, 0, 0, -1179604, 0, 0, -1179600, 0, 0, -1179599, 0, 0, -1179598, 0, 0, -1048577, 11, 0, -1114112, 11, 0, -1114111, 11, 0, -1114089, 1, 0, -1114085, 1, 1, -1114084, 1, 2, -1114083, 1, 3, -1048556, 1, 1, -1048555, 1, 2, -1048554, 1, 3, -983024, 1, 1, -983023, 1, 3, -786417, 1, 1, -786416, 1, 2, -786415, 1, 2, -786414, 1, 2, -786413, 1, 2, -786412, 1, 3, -655366, 1, 65536, -720896, 1, 65537, -720895, 1, 65538, -720894, 1, 65538, -720893, 1, 65539, -589830, 1, 393216, -655360, 1, 393217, -655359, 1, 393218, -655358, 1, 393218, -655357, 1, 65540, -655356, 1, 65539, -524294, 1, 0, -524293, 1, 2, -524292, 1, 2, -524291, 1, 2, -524290, 1, 2, -524289, 1, 2, -589824, 1, 0, -589823, 1, 458754, -589822, 1, 458754, -589821, 1, 458754, -589820, 1, 0, -589819, 1, 2, -589818, 1, 2, -589817, 1, 2, -589816, 1, 3, -589813, 1, 0, -524265, 1, 1, -524264, 1, 2, -524263, 1, 2, -524262, 1, 2, -524261, 1, 2, -524260, 1, 2, -524259, 1, 2, -524258, 1, 2, -524257, 1, 2, -524256, 1, 2, -524255, 1, 2, -524254, 1, 2, -524253, 1, 3, -327671, 0, 0, -327670, 0, 0, -327669, 0, 0, 131077, 1, 1, 131078, 1, 2, 131079, 1, 2, 131080, 1, 2, 131081, 1, 2, 131082, 1, 2, 131083, 1, 2, 131084, 1, 2, 131085, 1, 2, 131086, 1, 3 )
+tile_data = PoolIntArray( -1703915, 15, 0, -1703914, 17, 0, -1638369, 15, 0, -1638368, 17, 0, -1572837, 15, 0, -1572836, 16, 0, -1572835, 17, 0, -1507311, 15, 0, -1507310, 17, 0, -1507294, 15, 0, -1507293, 17, 0, -1507283, 0, 0, -1507282, 0, 0, -1441768, 1, 1, -1441767, 1, 2, -1441766, 1, 3, -1441762, 1, 1, -1441761, 1, 2, -1441760, 1, 3, -1441752, 0, 0, -1441751, 0, 0, -1376205, 0, 0, -1376204, 0, 0, -1310700, 15, 0, -1310699, 17, 0, -1310692, 1, 0, -1310683, 15, 0, -1310682, 17, 0, -1245174, 0, 0, -1245170, 0, 0, -1179648, 11, 0, -1179643, 1, 1, -1179642, 1, 2, -1179641, 1, 2, -1179640, 1, 2, -1179639, 1, 2, -1179638, 1, 2, -1179637, 1, 2, -1179636, 1, 2, -1179635, 1, 2, -1179634, 1, 2, -1179633, 1, 2, -1179632, 1, 3, -1179624, 1, 1, -1179623, 1, 2, -1179622, 1, 3, -1179618, 1, 1, -1179617, 1, 2, -1179616, 1, 3, -1179614, 15, 0, -1179613, 17, 0, -1179612, 0, 0, -1179611, 0, 0, -1179610, 0, 0, -1179609, 0, 0, -1179608, 0, 0, -1179607, 0, 0, -1179606, 0, 0, -1179605, 0, 0, -1179604, 0, 0, -1179600, 0, 0, -1179599, 0, 0, -1179598, 0, 0, -1048577, 11, 0, -1114112, 11, 0, -1114111, 11, 0, -1114089, 1, 0, -1114085, 1, 1, -1114084, 1, 2, -1114083, 1, 3, -1114078, 0, 0, -1114068, 0, 0, -1048556, 1, 1, -1048555, 1, 2, -1048554, 1, 3, -1048542, 0, 0, -1048532, 0, 0, -983024, 1, 1, -983023, 1, 3, -983006, 0, 0, -982996, 0, 0, -917470, 0, 0, -917460, 0, 0, -851945, 0, 0, -851944, 0, 0, -851938, 0, 0, -851937, 0, 0, -851934, 0, 0, -851924, 0, 0, -786417, 1, 1, -786416, 1, 2, -786415, 1, 2, -786414, 1, 2, -786413, 1, 2, -786412, 1, 3, -786398, 0, 0, -786388, 0, 0, -655366, 1, 65536, -720896, 1, 65537, -720895, 1, 65538, -720894, 1, 65538, -720893, 1, 65539, -720852, 0, 0, -589830, 1, 393216, -655360, 1, 393217, -655359, 1, 393218, -655358, 1, 393218, -655357, 1, 65540, -655356, 1, 65539, -655316, 0, 0, -524294, 1, 0, -524293, 1, 2, -524292, 1, 2, -524291, 1, 2, -524290, 1, 2, -524289, 1, 2, -589824, 1, 0, -589823, 1, 458754, -589822, 1, 458754, -589821, 1, 458754, -589820, 1, 0, -589819, 1, 2, -589818, 1, 2, -589817, 1, 2, -589816, 1, 3, -589813, 1, 0, -589790, 0, 0, -589780, 0, 0, -524265, 1, 1, -524264, 1, 2, -524263, 1, 2, -524262, 1, 2, -524261, 1, 2, -524260, 1, 2, -524259, 1, 2, -524258, 1, 2, -524257, 1, 2, -524256, 1, 2, -524255, 1, 3, -524254, 0, 0, -524253, 0, 0, -524252, 0, 0, -524251, 0, 0, -524250, 0, 0, -524249, 0, 0, -524248, 0, 0, -524247, 0, 0, -524246, 0, 0, -524245, 0, 0, -524244, 0, 0, -327671, 0, 0, -327670, 0, 0, -327669, 0, 0, -327656, 1, 1, -327655, 1, 3, -196577, 1, 1, -196576, 1, 3, -65516, 1, 1, -65515, 1, 3, -65512, 1, 1, -65511, 1, 2, -65510, 1, 2, -65509, 1, 2, -65508, 1, 2, -65507, 1, 2, -65506, 1, 3, 131077, 1, 1, 131078, 1, 2, 131079, 1, 2, 131080, 1, 2, 131081, 1, 2, 131082, 1, 2, 131083, 1, 2, 131084, 1, 2, 131085, 1, 2, 131086, 1, 3 )
 
 [node name="Spike" parent="." index="4" instance=ExtResource( 9 )]
 position = Vector2( 306, -188 )
@@ -47,257 +47,260 @@ position = Vector2( 306, -188 )
 [node name="WalkingEnemy" parent="." index="5" instance=ExtResource( 1 )]
 position = Vector2( 234, -188 )
 
-[node name="Ladder" parent="." index="6" instance=ExtResource( 8 )]
+[node name="WalkingEnemy2" parent="." index="6" instance=ExtResource( 1 )]
+position = Vector2( 468, 120 )
+
+[node name="Ladder" parent="." index="7" instance=ExtResource( 8 )]
 position = Vector2( 171, 48 )
 
-[node name="Ladder2" parent="." index="7" instance=ExtResource( 8 )]
+[node name="Ladder2" parent="." index="8" instance=ExtResource( 8 )]
 position = Vector2( 171, 100 )
 
-[node name="Ladder3" parent="." index="8" instance=ExtResource( 8 )]
+[node name="Ladder3" parent="." index="9" instance=ExtResource( 8 )]
 position = Vector2( 171, 82 )
 
-[node name="Ladder4" parent="." index="9" instance=ExtResource( 8 )]
+[node name="Ladder4" parent="." index="10" instance=ExtResource( 8 )]
 position = Vector2( 171, 66 )
 
-[node name="Ladder5" parent="." index="10" instance=ExtResource( 8 )]
+[node name="Ladder5" parent="." index="11" instance=ExtResource( 8 )]
 position = Vector2( 171, 136 )
 
-[node name="Ladder6" parent="." index="11" instance=ExtResource( 8 )]
+[node name="Ladder6" parent="." index="12" instance=ExtResource( 8 )]
 position = Vector2( 171, 118 )
 
-[node name="Ladder7" parent="." index="12" instance=ExtResource( 8 )]
+[node name="Ladder7" parent="." index="13" instance=ExtResource( 8 )]
 position = Vector2( 171, 154 )
 
-[node name="Checkpoint" parent="." index="13" instance=ExtResource( 5 )]
+[node name="Checkpoint" parent="." index="14" instance=ExtResource( 5 )]
 position = Vector2( 324, -188 )
 
-[node name="MovingSpikeEnemy" parent="." index="14" instance=ExtResource( 3 )]
+[node name="MovingSpikeEnemy" parent="." index="15" instance=ExtResource( 3 )]
 position = Vector2( 198, -244 )
 curve = SubResource( 2 )
 speed = 1.5
 
-[node name="StompEnemy" parent="." index="15" instance=ExtResource( 6 )]
+[node name="StompEnemy" parent="." index="16" instance=ExtResource( 6 )]
 position = Vector2( 162, -256 )
 
-[node name="Door" parent="." index="16" instance=ExtResource( 4 )]
+[node name="Door" parent="." index="17" instance=ExtResource( 4 )]
 position = Vector2( 594, -261 )
 target_level_path = "res://Levels/Level4.tscn"
 
-[node name="Door2" parent="." index="17" instance=ExtResource( 4 )]
+[node name="Door2" parent="." index="18" instance=ExtResource( 4 )]
 position = Vector2( 486, -189 )
 target_level_path = "res://Levels/Level1.tscn"
 
-[node name="Door3" parent="." index="18" instance=ExtResource( 4 )]
+[node name="Door3" parent="." index="19" instance=ExtResource( 4 )]
 position = Vector2( 486, -261 )
 target_level_path = "res://Levels/Level3.tscn"
 
-[node name="Door4" parent="." index="19" instance=ExtResource( 4 )]
+[node name="Door4" parent="." index="20" instance=ExtResource( 4 )]
 position = Vector2( 594, -189 )
 
-[node name="Sword" parent="." index="20" instance=ExtResource( 10 )]
+[node name="Sword" parent="." index="21" instance=ExtResource( 10 )]
 position = Vector2( 180, -36 )
 
-[node name="MiniBoss1" parent="." index="21" instance=ExtResource( 11 )]
+[node name="MiniBoss1" parent="." index="22" instance=ExtResource( 11 )]
 position = Vector2( 498, -44 )
 
-[node name="Poison" parent="." index="22" instance=ExtResource( 12 )]
+[node name="Poison" parent="." index="23" instance=ExtResource( 12 )]
 position = Vector2( -54, -28 )
 
-[node name="Poison2" parent="." index="23" instance=ExtResource( 12 )]
+[node name="Poison2" parent="." index="24" instance=ExtResource( 12 )]
 position = Vector2( -36, -28 )
 
-[node name="Poison3" parent="." index="24" instance=ExtResource( 12 )]
+[node name="Poison3" parent="." index="25" instance=ExtResource( 12 )]
 position = Vector2( -18, -28 )
 
-[node name="Poison4" parent="." index="25" instance=ExtResource( 12 )]
+[node name="Poison4" parent="." index="26" instance=ExtResource( 12 )]
 position = Vector2( 0, -28 )
 
-[node name="TopPoison2" parent="." index="26" instance=ExtResource( 13 )]
+[node name="TopPoison2" parent="." index="27" instance=ExtResource( 13 )]
 position = Vector2( 0, -52 )
 
-[node name="TopPoison3" parent="." index="27" instance=ExtResource( 13 )]
+[node name="TopPoison3" parent="." index="28" instance=ExtResource( 13 )]
 position = Vector2( -18, -52 )
 
-[node name="TopPoison4" parent="." index="28" instance=ExtResource( 13 )]
+[node name="TopPoison4" parent="." index="29" instance=ExtResource( 13 )]
 position = Vector2( -36, -52 )
 
-[node name="TopPoison5" parent="." index="29" instance=ExtResource( 13 )]
+[node name="TopPoison5" parent="." index="30" instance=ExtResource( 13 )]
 position = Vector2( -54, -52 )
 
-[node name="Poison5" parent="." index="30" instance=ExtResource( 12 )]
+[node name="Poison5" parent="." index="31" instance=ExtResource( 12 )]
 position = Vector2( 18, -28 )
 
-[node name="Waterfallpoison2" parent="." index="31" instance=ExtResource( 17 )]
+[node name="Waterfallpoison2" parent="." index="32" instance=ExtResource( 17 )]
 position = Vector2( -72, -80 )
 
-[node name="Waterfallpoison1" parent="." index="32" instance=ExtResource( 14 )]
+[node name="Waterfallpoison1" parent="." index="33" instance=ExtResource( 14 )]
 position = Vector2( -72, -96 )
 
-[node name="Waterfallpoison3" parent="." index="33" instance=ExtResource( 15 )]
+[node name="Waterfallpoison3" parent="." index="34" instance=ExtResource( 15 )]
 position = Vector2( -72, -64 )
 
-[node name="PipePoisonPart2" parent="." index="34" instance=ExtResource( 18 )]
+[node name="PipePoisonPart2" parent="." index="35" instance=ExtResource( 18 )]
 position = Vector2( 18, -52 )
 
-[node name="ConstructionTilemap" parent="." index="35" instance=ExtResource( 16 )]
+[node name="ConstructionTilemap" parent="." index="36" instance=ExtResource( 16 )]
 
-[node name="Door5" parent="." index="36" instance=ExtResource( 4 )]
+[node name="Door5" parent="." index="37" instance=ExtResource( 4 )]
 position = Vector2( 810, -188 )
 target_level_path = "res://Levels/Level4part2.tscn"
 
-[node name="Door6" parent="." index="37" instance=ExtResource( 4 )]
+[node name="Door6" parent="." index="38" instance=ExtResource( 4 )]
 position = Vector2( 918, -188 )
 target_level_path = "res://Levels/LevelBossFight.tscn"
 
-[node name="Fire" parent="." index="38" instance=ExtResource( 19 )]
+[node name="Fire" parent="." index="39" instance=ExtResource( 19 )]
 position = Vector2( 54, -64 )
 
-[node name="Dirtparticles" parent="." index="39" instance=ExtResource( 20 )]
+[node name="Dirtparticles" parent="." index="40" instance=ExtResource( 20 )]
 position = Vector2( 135, -28 )
 
-[node name="Dirtparticles2" parent="." index="40" instance=ExtResource( 20 )]
+[node name="Dirtparticles2" parent="." index="41" instance=ExtResource( 20 )]
 position = Vector2( 139, -28 )
 
-[node name="Dirtparticles3" parent="." index="41" instance=ExtResource( 20 )]
+[node name="Dirtparticles3" parent="." index="42" instance=ExtResource( 20 )]
 position = Vector2( 147, -28 )
 
-[node name="Dirtparticles4" parent="." index="42" instance=ExtResource( 20 )]
+[node name="Dirtparticles4" parent="." index="43" instance=ExtResource( 20 )]
 position = Vector2( 143, -28 )
 
-[node name="Grass particle" parent="." index="43" instance=ExtResource( 21 )]
+[node name="Grass particle" parent="." index="44" instance=ExtResource( 21 )]
 position = Vector2( 228, -26 )
 
-[node name="Grass particle11" parent="." index="44" instance=ExtResource( 21 )]
+[node name="Grass particle11" parent="." index="45" instance=ExtResource( 21 )]
 position = Vector2( 230, -25 )
 
-[node name="Grass particle12" parent="." index="45" instance=ExtResource( 21 )]
+[node name="Grass particle12" parent="." index="46" instance=ExtResource( 21 )]
 position = Vector2( 241, -26 )
 
-[node name="Grass particle13" parent="." index="46" instance=ExtResource( 21 )]
+[node name="Grass particle13" parent="." index="47" instance=ExtResource( 21 )]
 position = Vector2( 227, -27 )
 
-[node name="Grass particle14" parent="." index="47" instance=ExtResource( 21 )]
+[node name="Grass particle14" parent="." index="48" instance=ExtResource( 21 )]
 position = Vector2( 240, -27 )
 
-[node name="Grass particle15" parent="." index="48" instance=ExtResource( 21 )]
+[node name="Grass particle15" parent="." index="49" instance=ExtResource( 21 )]
 position = Vector2( 239, -26 )
 
-[node name="Grass particle16" parent="." index="49" instance=ExtResource( 21 )]
+[node name="Grass particle16" parent="." index="50" instance=ExtResource( 21 )]
 position = Vector2( 238, -25 )
 
-[node name="Grass particle2" parent="." index="50" instance=ExtResource( 21 )]
+[node name="Grass particle2" parent="." index="51" instance=ExtResource( 21 )]
 position = Vector2( 237, -27 )
 
-[node name="Grass particle3" parent="." index="51" instance=ExtResource( 21 )]
+[node name="Grass particle3" parent="." index="52" instance=ExtResource( 21 )]
 position = Vector2( 236, -25 )
 
-[node name="Grass particle4" parent="." index="52" instance=ExtResource( 21 )]
+[node name="Grass particle4" parent="." index="53" instance=ExtResource( 21 )]
 position = Vector2( 235, -28 )
 
-[node name="Grass particle5" parent="." index="53" instance=ExtResource( 21 )]
+[node name="Grass particle5" parent="." index="54" instance=ExtResource( 21 )]
 position = Vector2( 234, -25 )
 
-[node name="Grass particle6" parent="." index="54" instance=ExtResource( 21 )]
+[node name="Grass particle6" parent="." index="55" instance=ExtResource( 21 )]
 position = Vector2( 233, -27 )
 
-[node name="Grass particle7" parent="." index="55" instance=ExtResource( 21 )]
+[node name="Grass particle7" parent="." index="56" instance=ExtResource( 21 )]
 position = Vector2( 232, -25 )
 
-[node name="Grass particle8" parent="." index="56" instance=ExtResource( 21 )]
+[node name="Grass particle8" parent="." index="57" instance=ExtResource( 21 )]
 position = Vector2( 231, -26 )
 
-[node name="Grass particle9" parent="." index="57" instance=ExtResource( 21 )]
+[node name="Grass particle9" parent="." index="58" instance=ExtResource( 21 )]
 position = Vector2( 227, -24 )
 
-[node name="Grass particle10" parent="." index="58" instance=ExtResource( 21 )]
+[node name="Grass particle10" parent="." index="59" instance=ExtResource( 21 )]
 position = Vector2( 229, -26 )
 
-[node name="Grass particle17" parent="." index="59" instance=ExtResource( 21 )]
+[node name="Grass particle17" parent="." index="60" instance=ExtResource( 21 )]
 position = Vector2( 233, -24 )
 
-[node name="Grass particle18" parent="." index="60" instance=ExtResource( 21 )]
+[node name="Grass particle18" parent="." index="61" instance=ExtResource( 21 )]
 position = Vector2( 232, -24 )
 
-[node name="Grass particle19" parent="." index="61" instance=ExtResource( 21 )]
+[node name="Grass particle19" parent="." index="62" instance=ExtResource( 21 )]
 position = Vector2( 231, -24 )
 
-[node name="Grass particle20" parent="." index="62" instance=ExtResource( 21 )]
+[node name="Grass particle20" parent="." index="63" instance=ExtResource( 21 )]
 position = Vector2( 230, -24 )
 
-[node name="Grass particle21" parent="." index="63" instance=ExtResource( 21 )]
+[node name="Grass particle21" parent="." index="64" instance=ExtResource( 21 )]
 position = Vector2( 229, -24 )
 
-[node name="Grass particle22" parent="." index="64" instance=ExtResource( 21 )]
+[node name="Grass particle22" parent="." index="65" instance=ExtResource( 21 )]
 position = Vector2( 228, -24 )
 
-[node name="Grass particle23" parent="." index="65" instance=ExtResource( 21 )]
+[node name="Grass particle23" parent="." index="66" instance=ExtResource( 21 )]
 position = Vector2( 236, -24 )
 
-[node name="Grass particle24" parent="." index="66" instance=ExtResource( 21 )]
+[node name="Grass particle24" parent="." index="67" instance=ExtResource( 21 )]
 position = Vector2( 235, -24 )
 
-[node name="Grass particle25" parent="." index="67" instance=ExtResource( 21 )]
+[node name="Grass particle25" parent="." index="68" instance=ExtResource( 21 )]
 position = Vector2( 234, -24 )
 
-[node name="Grass particle26" parent="." index="68" instance=ExtResource( 21 )]
+[node name="Grass particle26" parent="." index="69" instance=ExtResource( 21 )]
 position = Vector2( 241, -24 )
 
-[node name="Grass particle27" parent="." index="69" instance=ExtResource( 21 )]
+[node name="Grass particle27" parent="." index="70" instance=ExtResource( 21 )]
 position = Vector2( 240, -24 )
 
-[node name="Grass particle28" parent="." index="70" instance=ExtResource( 21 )]
+[node name="Grass particle28" parent="." index="71" instance=ExtResource( 21 )]
 position = Vector2( 239, -24 )
 
-[node name="Grass particle29" parent="." index="71" instance=ExtResource( 21 )]
+[node name="Grass particle29" parent="." index="72" instance=ExtResource( 21 )]
 position = Vector2( 238, -24 )
 
-[node name="Grass particle30" parent="." index="72" instance=ExtResource( 21 )]
+[node name="Grass particle30" parent="." index="73" instance=ExtResource( 21 )]
 position = Vector2( 237, -24 )
 
-[node name="Rain" parent="." index="73" instance=ExtResource( 22 )]
+[node name="Rain" parent="." index="74" instance=ExtResource( 22 )]
 position = Vector2( 18, -153 )
 
-[node name="Rain2" parent="." index="74" instance=ExtResource( 22 )]
+[node name="Rain2" parent="." index="75" instance=ExtResource( 22 )]
 position = Vector2( 14, -153 )
 
-[node name="Rain3" parent="." index="75" instance=ExtResource( 22 )]
+[node name="Rain3" parent="." index="76" instance=ExtResource( 22 )]
 position = Vector2( 23, -153 )
 
-[node name="Rain4" parent="." index="76" instance=ExtResource( 22 )]
+[node name="Rain4" parent="." index="77" instance=ExtResource( 22 )]
 position = Vector2( 11, -153 )
 
-[node name="Rain5" parent="." index="77" instance=ExtResource( 22 )]
+[node name="Rain5" parent="." index="78" instance=ExtResource( 22 )]
 position = Vector2( 30, -153 )
 
-[node name="Rain6" parent="." index="78" instance=ExtResource( 22 )]
+[node name="Rain6" parent="." index="79" instance=ExtResource( 22 )]
 position = Vector2( 26, -153 )
 
-[node name="Rain7" parent="." index="79" instance=ExtResource( 22 )]
+[node name="Rain7" parent="." index="80" instance=ExtResource( 22 )]
 position = Vector2( 61, -153 )
 
-[node name="Rain8" parent="." index="80" instance=ExtResource( 22 )]
+[node name="Rain8" parent="." index="81" instance=ExtResource( 22 )]
 position = Vector2( 57, -153 )
 
-[node name="Rain9" parent="." index="81" instance=ExtResource( 22 )]
+[node name="Rain9" parent="." index="82" instance=ExtResource( 22 )]
 position = Vector2( 54, -153 )
 
-[node name="Rain10" parent="." index="82" instance=ExtResource( 22 )]
+[node name="Rain10" parent="." index="83" instance=ExtResource( 22 )]
 position = Vector2( 51, -153 )
 
-[node name="Rain11" parent="." index="83" instance=ExtResource( 22 )]
+[node name="Rain11" parent="." index="84" instance=ExtResource( 22 )]
 position = Vector2( 48, -153 )
 
-[node name="Rain12" parent="." index="84" instance=ExtResource( 22 )]
+[node name="Rain12" parent="." index="85" instance=ExtResource( 22 )]
 position = Vector2( 44, -153 )
 
-[node name="Rain13" parent="." index="85" instance=ExtResource( 22 )]
+[node name="Rain13" parent="." index="86" instance=ExtResource( 22 )]
 position = Vector2( 41, -153 )
 
-[node name="Rain14" parent="." index="86" instance=ExtResource( 22 )]
+[node name="Rain14" parent="." index="87" instance=ExtResource( 22 )]
 position = Vector2( 37, -153 )
 
-[node name="Rain15" parent="." index="87" instance=ExtResource( 22 )]
+[node name="Rain15" parent="." index="88" instance=ExtResource( 22 )]
 position = Vector2( 33, -153 )
 
-[node name="MiniBoss2" parent="." index="88" instance=ExtResource( 23 )]
-position = Vector2( 18, -288 )
+[node name="MiniBoss2" parent="." index="89" instance=ExtResource( 23 )]
+position = Vector2( 729, -80 )

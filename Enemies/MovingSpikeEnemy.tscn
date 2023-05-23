@@ -6,7 +6,7 @@
 
 [sub_resource type="Curve2D" id=3]
 _data = {
-"points": PoolVector2Array( 0, 0, 0, 0, 14, 15 )
+"points": PoolVector2Array(  )
 }
 
 [sub_resource type="CircleShape2D" id=2]
