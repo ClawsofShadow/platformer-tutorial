@@ -42,9 +42,8 @@ one_shot = true
 [node name="RemoteTransform2D" type="RemoteTransform2D" parent="."]
 position = Vector2( 0, -12 )
 
-[node name="PowerupTIMER" type="Timer" parent="."]
-wait_time = 30.0
+[node name="BossKillTimer" type="Timer" parent="."]
+wait_time = 3.0
 
 [connection signal="timeout" from="JumpBufferTimer" to="." method="_on_JumpBufferTimer_timeout"]
 [connection signal="timeout" from="CoyoteJumpTimer" to="." method="_on_CoyoteJumpTimer_timeout"]
-[connection signal="timeout" from="PowerupTIMER" to="." method="_on_PowerupTIMER_timeout"]

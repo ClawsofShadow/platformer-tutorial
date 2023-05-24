@@ -18,7 +18,7 @@
 [ext_resource path="res://Enemies/MiniBoss2.tscn" type="PackedScene" id=16]
 
 [node name="Level2" instance=ExtResource( 1 )]
-kill_floor = 590
+kill_floor = 600
 
 [node name="Player" parent="." index="0"]
 position = Vector2( -9, 18 )
@@ -90,10 +90,10 @@ position = Vector2( 1104, -306 )
 position = Vector2( 459, 162 )
 
 [node name="Checkpoint2" parent="." index="25" instance=ExtResource( 4 )]
-position = Vector2( -315, 396 )
+position = Vector2( -279, 396 )
 
 [node name="Checkpoint5" parent="." index="26" instance=ExtResource( 4 )]
-position = Vector2( -387, 396 )
+position = Vector2( -441, 396 )
 
 [node name="Checkpoint6" parent="." index="27" instance=ExtResource( 4 )]
 position = Vector2( 639, 18 )

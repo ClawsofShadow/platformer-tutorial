@@ -15,3 +15,7 @@ tile_data = PoolIntArray( -511630203, 1, 65537, -511630202, 1, 65538, -511630201
 [node name="Door" parent="." index="4" instance=ExtResource( 3 )]
 position = Vector2( -9, 0 )
 target_level_path = "res://Levels/Level4part2.tscn"
+
+[node name="Door2" parent="." index="5" instance=ExtResource( 3 )]
+position = Vector2( 585, 0 )
+target_level_path = "res://Levels/YourHomeWorld.tscn"
