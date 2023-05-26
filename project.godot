@@ -9,6 +9,16 @@
 config_version=4
 
 _global_script_classes=[ {
+"base": "KinematicBody2D",
+"class": "BadCPU",
+"language": "GDScript",
+"path": "res://CPUs/BadCPU.gd"
+}, {
+"base": "KinematicBody2D",
+"class": "CPU",
+"language": "GDScript",
+"path": "res://CPUs/CPU.gd"
+}, {
 "base": "Area2D",
 "class": "HitboxSword",
 "language": "GDScript",
@@ -35,6 +45,8 @@ _global_script_classes=[ {
 "path": "res://Player/Movement/PlayerMovement.gd"
 } ]
 _global_script_class_icons={
+"BadCPU": "",
+"CPU": "",
 "HitboxSword": "",
 "HurtboxSword": "",
 "Ladder": "",
@@ -109,6 +121,8 @@ texture={
 2d_physics/layer_2="Characters"
 2d_physics/layer_3="Hitboxes"
 2d_physics/layer_4="Hurtboxes"
+2d_physics/layer_5="Enemies"
+2d_physics/layer_6="NPCs"
 
 [physics]
 
