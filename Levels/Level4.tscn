@@ -23,7 +23,7 @@ tile_data = PoolIntArray( -511630203, 1, 65537, -511630202, 1, 65538, -511630201
 
 [node name="Door" parent="." index="6" instance=ExtResource( 4 )]
 position = Vector2( 1737, -36 )
-target_level_path = "res://Levels/Level4part2.tscn"
+target_level_path = "res://Levels/LevelBossFight.tscn"
 
 [node name="Door2" parent="." index="7" instance=ExtResource( 4 )]
 position = Vector2( 549, 0 )

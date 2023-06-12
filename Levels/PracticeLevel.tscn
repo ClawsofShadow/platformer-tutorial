@@ -1,4 +1,4 @@
-[gd_scene load_steps=27 format=2]
+[gd_scene load_steps=31 format=2]
 
 [ext_resource path="res://Enemies/WalkingEnemy.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Levels/Level.tscn" type="PackedScene" id=2]
@@ -25,10 +25,14 @@
 [ext_resource path="res://Enemies/MiniBoss2.tscn" type="PackedScene" id=23]
 [ext_resource path="res://CPUs/CPU.tscn" type="PackedScene" id=24]
 [ext_resource path="res://CPUs/BadCPU.tscn" type="PackedScene" id=25]
+[ext_resource path="res://Particles/CalmSnow.tscn" type="PackedScene" id=26]
+[ext_resource path="res://Particles/WildBlizzard.tscn" type="PackedScene" id=27]
+[ext_resource path="res://Particles/Downpour.tscn" type="PackedScene" id=28]
+[ext_resource path="res://Particles/CalmRain.tscn" type="PackedScene" id=29]
 
 [sub_resource type="Curve2D" id=2]
 _data = {
-"points": PoolVector2Array( 0, 0, 0, 0, 0, 54, 0, 0, 0, 0, 0, -9 )
+"points": PoolVector2Array( 0, 0, 0, 0, 0, 54, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -9 )
 }
 
 [node name="Practice level" instance=ExtResource( 2 )]
@@ -74,12 +78,12 @@ position = Vector2( 171, 154 )
 position = Vector2( 324, -188 )
 
 [node name="MovingSpikeEnemy" parent="." index="14" instance=ExtResource( 3 )]
-position = Vector2( 198, -244 )
+position = Vector2( 180, -256 )
 curve = SubResource( 2 )
 speed = 1.5
 
 [node name="StompEnemy" parent="." index="15" instance=ExtResource( 6 )]
-position = Vector2( 162, -256 )
+position = Vector2( 153, -268 )
 
 [node name="Door" parent="." index="16" instance=ExtResource( 4 )]
 position = Vector2( 594, -261 )
@@ -299,10 +303,22 @@ position = Vector2( 41, -153 )
 position = Vector2( 37, -153 )
 
 [node name="MiniBoss2" parent="." index="87" instance=ExtResource( 23 )]
-position = Vector2( 731, -80 )
+position = Vector2( 715, -48 )
 
 [node name="BadCPU" parent="." index="88" instance=ExtResource( 25 )]
 position = Vector2( 506, 142 )
 
 [node name="CPU" parent="." index="89" instance=ExtResource( 24 )]
 position = Vector2( 397, 154 )
+
+[node name="CalmRain" parent="." index="90" instance=ExtResource( 29 )]
+position = Vector2( 441, -256 )
+
+[node name="CalmSnow" parent="." index="91" instance=ExtResource( 26 )]
+position = Vector2( 252, -100 )
+
+[node name="Downpour" parent="." index="92" instance=ExtResource( 28 )]
+position = Vector2( 468, 44 )
+
+[node name="WildBlizzard" parent="." index="93" instance=ExtResource( 27 )]
+position = Vector2( -99, -216 )

@@ -1,0 +1,22 @@
+[gd_scene load_steps=2 format=2]
+
+[sub_resource type="ParticlesMaterial" id=1]
+emission_shape = 5
+emission_ring_radius = 1000.0
+emission_ring_inner_radius = 0.0
+emission_ring_height = 100.0
+emission_ring_axis = Vector3( 0, 0, 1 )
+flag_disable_z = true
+spread = 180.0
+gravity = Vector3( 0, 98, 0 )
+orbit_velocity = 0.0
+orbit_velocity_random = 0.0
+angle = 720.0
+angle_random = 1.0
+scale = 5.5
+scale_random = 1.0
+color = Color( 0.333333, 0.615686, 0.823529, 1 )
+
+[node name="Downpour" type="Particles2D"]
+amount = 10000
+process_material = SubResource( 1 )

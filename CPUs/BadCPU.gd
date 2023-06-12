@@ -22,4 +22,5 @@ func _physics_process(_delta) -> void:
 
 
 func kill(body:Node):
-	queue_free()
+	if body is CPU:
+		queue_free()

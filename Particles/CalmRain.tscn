@@ -1,0 +1,22 @@
+[gd_scene load_steps=2 format=2]
+
+[sub_resource type="ParticlesMaterial" id=1]
+emission_shape = 5
+emission_ring_radius = 1000.0
+emission_ring_inner_radius = 0.0
+emission_ring_height = 100.0
+emission_ring_axis = Vector3( 0, 0, 1 )
+flag_disable_z = true
+spread = 180.0
+gravity = Vector3( 0, 98, 0 )
+orbit_velocity = 0.0
+orbit_velocity_random = 0.0
+angle = 99.5
+angle_random = 1.0
+scale = 5.5
+scale_random = 1.0
+color = Color( 0.243137, 0.580392, 0.780392, 1 )
+
+[node name="CalmRain" type="Particles2D"]
+amount = 100
+process_material = SubResource( 1 )

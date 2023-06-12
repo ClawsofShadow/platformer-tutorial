@@ -35,6 +35,11 @@ _global_script_classes=[ {
 "path": "res://Ladder/Ladder.gd"
 }, {
 "base": "KinematicBody2D",
+"class": "MiniBoss2",
+"language": "GDScript",
+"path": "res://Enemies/MiniBoss2.gd"
+}, {
+"base": "KinematicBody2D",
 "class": "Player",
 "language": "GDScript",
 "path": "res://Player/Player.gd"
@@ -50,6 +55,7 @@ _global_script_class_icons={
 "HitboxSword": "",
 "HurtboxSword": "",
 "Ladder": "",
+"MiniBoss2": "",
 "Player": "",
 "PlayerMovement": ""
 }

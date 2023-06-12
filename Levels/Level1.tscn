@@ -1,13 +1,15 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://Levels/Level.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Tilemaps/TileMap.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Enemies/WalkingEnemy.tscn" type="PackedScene" id=3]
 [ext_resource path="res://Enemies/MiniBoss1.tscn" type="PackedScene" id=4]
 [ext_resource path="res://Enemies/Spike.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Particles/CalmSnow.tscn" type="PackedScene" id=6]
 [ext_resource path="res://Common/Checkpoint.tscn" type="PackedScene" id=7]
 [ext_resource path="res://Enemies/StompEnemy.tscn" type="PackedScene" id=8]
 [ext_resource path="res://Common/Door.tscn" type="PackedScene" id=9]
+[ext_resource path="res://Particles/WildBlizzard.tscn" type="PackedScene" id=10]
 
 [node name="Level1" instance=ExtResource( 1 )]
 kill_floor = 795
@@ -108,3 +110,44 @@ rotation = 0.0930845
 [node name="Spike15" parent="." index="31" instance=ExtResource( 5 )]
 position = Vector2( 189, -216 )
 rotation = 0.0930845
+
+[node name="CalmSnow" parent="." index="32" instance=ExtResource( 6 )]
+
+[node name="CalmSnow2" parent="." index="33" instance=ExtResource( 6 )]
+position = Vector2( 486, 558 )
+
+[node name="CalmSnow3" parent="." index="34" instance=ExtResource( 6 )]
+position = Vector2( 621, -342 )
+
+[node name="CalmSnow13" parent="." index="35" instance=ExtResource( 6 )]
+position = Vector2( 1125, -288 )
+
+[node name="CalmSnow4" parent="." index="36" instance=ExtResource( 6 )]
+position = Vector2( 225, -459 )
+
+[node name="CalmSnow5" parent="." index="37" instance=ExtResource( 6 )]
+position = Vector2( 936, -45 )
+
+[node name="CalmSnow6" parent="." index="38" instance=ExtResource( 6 )]
+position = Vector2( 603, -72 )
+
+[node name="CalmSnow7" parent="." index="39" instance=ExtResource( 6 )]
+position = Vector2( 1170, 369 )
+
+[node name="CalmSnow12" parent="." index="40" instance=ExtResource( 6 )]
+position = Vector2( 1017, 216 )
+
+[node name="CalmSnow8" parent="." index="41" instance=ExtResource( 6 )]
+position = Vector2( 846, 423 )
+
+[node name="CalmSnow9" parent="." index="42" instance=ExtResource( 6 )]
+position = Vector2( 558, 270 )
+
+[node name="CalmSnow10" parent="." index="43" instance=ExtResource( 6 )]
+position = Vector2( 270, 162 )
+
+[node name="CalmSnow11" parent="." index="44" instance=ExtResource( 6 )]
+position = Vector2( 261, -72 )
+
+[node name="WildBlizzard" parent="." index="45" instance=ExtResource( 10 )]
+position = Vector2( 1197, -36 )
